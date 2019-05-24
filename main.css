@@ -1,0 +1,150 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.5px;
+  margin: 0;
+  color: #ef312b;
+}
+
+p {
+  font-size: 1em;
+}
+
+.topBar {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 50px;
+  float: right;
+}
+
+.navigation li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+.navigation li a:hover {
+  color: #ef312b;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.content {
+  width: 100%;
+  background-color: black;
+  margin-bottom: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: 30em;
+  background-image: url(Content/Images/Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #ef312b;
+  background-blend-mode: screen;
+}
+
+.hero h1 {
+  color: black;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.work {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.work a {
+  text-decoration: none;
+  color: #ef312b;
+}
+
+.work a:hover {
+  color: white;
+}
+
+.porthole {
+  width: 25%;
+  min-width: 200px;
+  height: auto;
+  border-radius: 180px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/*Media queries below: */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
