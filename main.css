@@ -90,7 +90,7 @@ p {
   padding-right: 20%;
   background-color: white;
   padding-bottom: 50px;
-  min-height: 500px;
+  min-height: 25em;
 }
 
 .work {
@@ -118,7 +118,7 @@ p {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  max-height: 400px;
+  max-height: 20em;
 }
 
 /*Media queries below: */
