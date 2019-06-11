@@ -27,35 +27,6 @@ p {
   font-size: 1em;
 }
 
-.topBar {
-  width: 100%;
-  height: 150px;
-  background-color: black;
-  color: white;
-}
-
-.navigation {
-  list-style: none;
-  margin: 0;
-  padding: 50px;
-  float: right;
-}
-
-.navigation li {
-  display: inline;
-  margin-left: 20px;
-}
-
-.navigation li a {
-  text-decoration: none;
-  font-size: 1.5em;
-  color: white;
-}
-
-.navigation li a:hover {
-  color: #ef312b;
-}
-
 .logo {
   display: inline-block;
   padding-top: 10px;
@@ -92,6 +63,13 @@ p {
   padding-bottom: 50px;
 }
 
+.about .aboutContent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
 .work {
   padding-left: 20%;
   padding-right: 20%;
@@ -110,7 +88,7 @@ p {
 }
 
 .porthole {
-  width: 25%;
+  width: 75%;
   min-width: 200px;
   height: auto;
   border-radius: 180px;
@@ -125,12 +103,18 @@ p {
   html {
     font-size: 16px;
   }
+  .about .aboutContent {
+    display: block;
+  }
 }
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   html {
     font-size: 16px;
+  }
+  .about .aboutContent {
+    display: block;
   }
 }
 
