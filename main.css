@@ -61,6 +61,7 @@ p {
   padding-right: 20%;
   background-color: white;
   padding-bottom: 50px;
+  min-height: 21em;
 }
 
 .about .aboutContent {
@@ -95,6 +96,7 @@ p {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+  max-height: 20em;
 }
 
 /*Media queries below: */
