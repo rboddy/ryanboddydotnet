@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>RyanBoddy.net</title>
-    <link rel="stylesheet" href="main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="wrapper">
-      <nav class="main-nav">
-        <ul>
-          <li>About Me</li>
-          <li>Work</li>
-          <li>Contact Me</li>
-        </ul>
-      </nav>
-      <section class="top-container">
-        <header class="hero">
-          <h1>Welcome</h1>
-          <h2>My Name is Ryan Boddy</h2>
-        </header>
-      </section>
-      <section class="section-a">
-        <h1>About Me</h1>
-        <p>
-          Hi I'm Ryan Boddy. I am a full time DevOps engineer and a
-          freelance/hobbyist Web Developer. I am married to my best friend
-          Baylee and we are expecting our first son in July of 2019. I cannot
-          wait to meet the little guy! If I'm not writing code or hanging with
-          my wife you can find me playing video games with my friends. I
-          attended Florida Gulf Coast University (Go Eagles!) where I earned my
-          bachelors in Computer Imformation Systems. I have been writing code
-          for close to 10 years now, and I'm still learning something new every
-          day. I love to spend my time exploring topics relating to web
-          development.
-        </p>
-      </section>
-    </div>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>RyanBoddy.net</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+      </ul>
+    </nav>
+    <!-- The Hero Image Section -->
+    <section class="top-container">
+      <header class="hero">
+        <div class="heroImage">
+          <img src="content/images/hero.jpg" />
+        </div>
+        <h1>Welcome</h1>
+        <h2>My Name is Ryan Boddy</h2>
+      </header>
+    </section>
+    <!-- The About Me Section -->
+    <section class="section-a" id="about">
+      <h1>About Me</h1>
+      <img src="content/images/porthole.png" />
+      <p>
+        Hi I'm Ryan Boddy. I am a full time DevOps engineer and a freelance/hobbyist Web Developer. I am married to my best friend
+        Baylee and we are expecting our first son in July of 2019. I cannot wait to meet the little guy! If I'm not writing
+        code or hanging with my wife you can find me playing video games with my friends. I attended Florida Gulf Coast University
+        (Go Eagles!) where I earned my bachelors in Computer Imformation Systems. I have been writing code for close to 10
+        years now, and I'm still learning something new every day. I love to spend my time exploring topics relating to web
+        development.
+      </p>
+    </section>
+    <!-- The section with all my work -->
+    <section class="section-b" id="work">
+      <h1>My Work</h1>
+      <h3>Check out my projects or see what I built for others!</h3>
+
+      <div class="box projects">
+        <div class="boxImage"></div>
+        <h3>My Projects</h3>
+        <p>This is work that I do when I'm learning something new or I get inspired to create something fun! Check it out!</p>
+      </div>
+      <div class="box clients">
+        <div class="boxImage"></div>
+        <h3>Clients</h3>
+        <p>Check out the work I've done to bring these businesses web presence to life!</p>
+      </div>
+      <div class="github">
+        <h3>Need more Source?</h3>
+        <a href="https://github.com/rboddy" target="_blank"><img src="content/images/GitHub-Mark-120px-plus.png"/></a>
+        <p>Click OctoCat to check out my Github for more examples of code I've written</p>
+      </div>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
