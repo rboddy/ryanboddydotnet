@@ -166,6 +166,10 @@ h2 {
   margin-top: 0;
 }
 
+.section-b .setHeight {
+  height: 400px;
+}
+
 .section-b .github {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -185,5 +189,77 @@ h2 {
 
 .section-b .github .grid-section-1 img {
   margin-top: 0.5rem;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .main-nav ul {
+    width: 80%;
+  }
+  .section-a .aboutContent {
+    display: block;
+  }
+  .section-b h3 {
+    padding: 0 3rem;
+  }
+  .section-b .workContent {
+    display: block;
+  }
+  .section-b .workContent .github {
+    display: block;
+  }
+  .section-b .workContent .box p {
+    height: auto;
+  }
+  .section-b .setHeight {
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .main-nav ul {
+    width: 80%;
+  }
+  .section-a .aboutContent {
+    display: block;
+  }
+  .section-b h3 {
+    padding: 0 3rem;
+  }
+  .section-b .workContent {
+    display: block;
+  }
+  .section-b .workContent .github {
+    display: block;
+  }
+  .section-b .workContent .box p {
+    height: auto;
+  }
+  .section-b .setHeight {
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .main-nav ul {
+    width: 80%;
+  }
+  .section-a .aboutContent {
+    display: block;
+  }
+  .section-b h3 {
+    padding: 0 3rem;
+  }
+  .section-b .workContent {
+    display: block;
+  }
+  .section-b .workContent .github {
+    display: block;
+  }
+  .section-b .workContent .box p {
+    height: auto;
+  }
+  .section-b .setHeight {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
