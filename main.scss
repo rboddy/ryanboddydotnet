@@ -16,9 +16,11 @@ body {
 a {
   text-decoration: none;
   color: $green;
+  transition: background-color 0.6s;
 }
 a:hover {
-  color: #fff;
+  color: #000;
+  background-color: $green;
 }
 h1 {
   font-size: 5rem;
@@ -105,9 +107,17 @@ h2 {
     color: #000;
     p {
       padding: 0 3rem;
+      height: 4rem;
     }
-    hr {
-      margin-bottom: 5rem;
+  }
+  .workLink {
+    width: 90%;
+    margin: 0 auto;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+      }
     }
   }
   .projects {
