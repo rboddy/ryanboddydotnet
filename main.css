@@ -203,13 +203,23 @@ h2 {
   }
   .section-b .workContent {
     display: block;
+    width: 100%;
   }
   .section-b .workContent .github {
     display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .section-b .workContent .github .grid-section-2 p {
+    padding: 2rem;
+  }
+  .section-b .workContent .box {
+    width: 85%;
+    margin: 0 auto;
   }
   .section-b .workContent .box p {
     height: auto;
-    padding-bottom: 2rem;
+    padding: 1rem;
   }
   .section-b .setHeight {
     height: auto;
@@ -228,13 +238,23 @@ h2 {
   }
   .section-b .workContent {
     display: block;
+    width: 100%;
   }
   .section-b .workContent .github {
     display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .section-b .workContent .github .grid-section-2 p {
+    padding: 2rem;
+  }
+  .section-b .workContent .box {
+    width: 85%;
+    margin: 0 auto;
   }
   .section-b .workContent .box p {
     height: auto;
-    padding-bottom: 2rem;
+    padding: 1rem;
   }
   .section-b .setHeight {
     height: auto;
@@ -253,13 +273,23 @@ h2 {
   }
   .section-b .workContent {
     display: block;
+    width: 100%;
   }
   .section-b .workContent .github {
     display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .section-b .workContent .github .grid-section-2 p {
+    padding: 2rem;
+  }
+  .section-b .workContent .box {
+    width: 85%;
+    margin: 0 auto;
   }
   .section-b .workContent .box p {
     height: auto;
-    padding-bottom: 2rem;
+    padding: 1rem;
   }
   .section-b .setHeight {
     height: auto;

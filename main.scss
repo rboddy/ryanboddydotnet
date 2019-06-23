@@ -171,13 +171,23 @@ h2 {
     }
     .workContent {
       display: block;
+      width: 100%;
       .github {
         display: block;
+        width: 85%;
+        margin: 0 auto;
+        .grid-section-2 {
+          p {
+            padding: 2rem;
+          }
+        }
       }
       .box {
+        width: 85%;
+        margin: 0 auto;
         p {
           height: auto;
-          padding-bottom: 2rem;
+          padding: 1rem;
         }
       }
     }
@@ -204,13 +214,23 @@ h2 {
     }
     .workContent {
       display: block;
+      width: 100%;
       .github {
         display: block;
+        width: 85%;
+        margin: 0 auto;
+        .grid-section-2 {
+          p {
+            padding: 2rem;
+          }
+        }
       }
       .box {
+        width: 85%;
+        margin: 0 auto;
         p {
           height: auto;
-          padding-bottom: 2rem;
+          padding: 1rem;
         }
       }
     }
@@ -237,13 +257,23 @@ h2 {
     }
     .workContent {
       display: block;
+      width: 100%;
       .github {
         display: block;
+        width: 85%;
+        margin: 0 auto;
+        .grid-section-2 {
+          p {
+            padding: 2rem;
+          }
+        }
       }
       .box {
+        width: 85%;
+        margin: 0 auto;
         p {
           height: auto;
-          padding-bottom: 2rem;
+          padding: 1rem;
         }
       }
     }
