@@ -1,287 +1,61 @@
 $green: #39c65f;
-$gray: #2a2a2a;
+$gray: #343a40;
 
 body,
 html {
   width: 100%;
   height: 100%;
+  background-color: $gray !important;
 }
+
 body {
+  font-family: "Alata", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid $green;
+  font-family: "Alata", sans-serif;
+}
+
+main {
+  color: white;
+  margin-top: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: $green !important;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: white !important;
+}
+.about {
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+}
+.profilePic {
   margin: 0 auto;
-  font-family: "Oswald", sans-serif;
-  background-color: $gray;
-  color: #fff;
-  font-size: 1.3rem;
-}
-a {
-  text-decoration: none;
-  color: $green;
-  transition: background-color 0.6s;
-}
-a:hover {
-  color: #000;
+  margin-bottom: 30px;
   background-color: $green;
-}
-h1 {
-  font-size: 5rem;
-}
-h2 {
-  font-size: 3.5rem;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.main-nav {
-  width: 100%;
-  height: 50px;
-  ul {
-    width: 20%;
-    height: 50px;
-    margin-top: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 2rem;
-    li {
-      display: inline-block;
-    }
+  height: 220px;
+  width: 220px;
+  border-radius: 180px;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
   }
 }
-.hero {
-  height: 600px;
-  .headerContent {
-    text-align: center;
-    margin-top: 100px;
-  }
-}
-.heroImage {
-  position: absolute;
-  background: url(/Content/Images/Hero.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 600px;
-  z-index: -1;
-  opacity: 0.4;
-}
-
-.section-a {
-  background-color: $green;
-  color: #000;
+.module {
+  color: white;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  border: 3px solid $green;
   text-align: center;
-  h1 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  padding: 10px;
+  h2 {
+    color: $green;
   }
-  .aboutContent {
-    width: 60%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    margin-bottom: 2rem;
-  }
-}
-.section-b {
-  text-align: center;
-  margin-bottom: 5rem;
-  h1 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .workContent {
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 3rem;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-  }
-  .box {
-    h3 {
-      margin-bottom: 0;
-    }
-    background-color: #fff;
-    color: #000;
-    p {
-      padding: 0 3rem;
-      height: 4rem;
-    }
-  }
-  .workLink {
-    width: 90%;
-    margin: 0 auto;
-    ul {
-      list-style: none;
-      li {
-        display: inline-block;
-      }
-    }
-  }
-  .projects {
-    background-image: url(Content/Images/Code.PNG);
-    width: 100%;
-    height: 200px;
-    margin: 0 auto;
-  }
-  .clients {
-    width: 100%;
-    height: 200px;
-    background-color: #000;
-    color: #fff;
-    h3 {
-      margin-top: 0;
-    }
-  }
-  .setHeight {
-    height: 400px;
-  }
-  .github {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    background: #fff;
-    color: #000;
-    width: 100%;
-    .grid-section-1 {
-      background: $green;
-      img {
-        margin-top: 0.5rem;
-      }
-    }
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .main-nav {
-    ul {
-      width: 80%;
-    }
-  }
-  .section-a {
-    .aboutContent {
-      display: block;
-    }
-  }
-  .section-b {
-    h3 {
-      padding: 0 3rem;
-    }
-    .workContent {
-      display: block;
-      width: 100%;
-      .github {
-        display: block;
-        width: 85%;
-        margin: 0 auto;
-        .grid-section-2 {
-          p {
-            padding: 2rem;
-          }
-        }
-      }
-      .box {
-        width: 85%;
-        margin: 0 auto;
-        p {
-          height: auto;
-          padding: 1rem;
-        }
-      }
-    }
-    .setHeight {
-      height: auto;
-    }
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .main-nav {
-    ul {
-      width: 80%;
-    }
-  }
-  .section-a {
-    .aboutContent {
-      display: block;
-    }
-  }
-  .section-b {
-    h3 {
-      padding: 0 3rem;
-    }
-    .workContent {
-      display: block;
-      width: 100%;
-      .github {
-        display: block;
-        width: 85%;
-        margin: 0 auto;
-        .grid-section-2 {
-          p {
-            padding: 2rem;
-          }
-        }
-      }
-      .box {
-        width: 85%;
-        margin: 0 auto;
-        p {
-          height: auto;
-          padding: 1rem;
-        }
-      }
-    }
-    .setHeight {
-      height: auto;
-    }
-  }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .main-nav {
-    ul {
-      width: 80%;
-    }
-  }
-  .section-a {
-    .aboutContent {
-      display: block;
-    }
-  }
-  .section-b {
-    h3 {
-      padding: 0 3rem;
-    }
-    .workContent {
-      display: block;
-      width: 100%;
-      .github {
-        display: block;
-        width: 85%;
-        margin: 0 auto;
-        .grid-section-2 {
-          p {
-            padding: 2rem;
-          }
-        }
-      }
-      .box {
-        width: 85%;
-        margin: 0 auto;
-        p {
-          height: auto;
-          padding: 1rem;
-        }
-      }
-    }
-    .setHeight {
-      height: auto;
-    }
-  }
-}
-
-@media (max-width: 1100px) {
 }
