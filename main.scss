@@ -48,14 +48,43 @@ main {
   }
 }
 .module {
+  font-family: "Alata", sans-serif;
   color: white;
   margin: 0 auto;
-  width: 400px;
+  margin-bottom: 20px;
+  width: 80%;
   height: auto;
-  border: 3px solid $green;
+  border: 2px solid $green;
   text-align: center;
   padding: 10px;
   h2 {
     color: $green;
+  }
+}
+.workLink {
+  a {
+    color: $green !important;
+  }
+}
+hr {
+  background-color: $green;
+}
+.moduleGrid {
+  margin-top: 30px;
+}
+.logos {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    img {
+      width: 64px;
+      height: auto;
+      background-color: white;
+      border-radius: 180px;
+    }
   }
 }
